@@ -41,6 +41,7 @@ namespace EmbedBuilderVisualizer
 
 		private void guna2Button2_Click(object sender, EventArgs e)
 		{
+			//just realized i didnt need to do this twice but oh well :/
 			string url = guna2TextBox3.Text;
 			WebRequest req = WebRequest.Create(url);
 			WebResponse res = req.GetResponse();
